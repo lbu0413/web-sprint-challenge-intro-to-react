@@ -5,14 +5,20 @@ import styled, { keyframes } from 'styled-components'
 
 const StyledCharacters = styled.div`
     font-family: 'Fredoka One', cursive;
-    border: 5px solid black;
-    border-radius: 50%;
-    background-color: #D2B48C;
+    border: 1px solid white;
+    border-radius: 2%;
+    background-color:#D3D3D3;
+
     img{
         width: 10%;
         margin-top: 3%;
         margin-bottom: 2%;
         border-radius: 50%;
+        
+    }
+    img:hover{
+        transition: all .5s;
+        transform:scale(2);
     }
     .species{
         margin-bottom: 3%;
