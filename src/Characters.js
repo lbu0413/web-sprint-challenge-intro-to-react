@@ -5,7 +5,7 @@ import styled, { keyframes } from 'styled-components'
 
 const StyledCharacters = styled.div`
     font-family: 'Fredoka One', cursive;
-    border: 1px solid white;
+    border: 1px solid gray;
     border-radius: 2%;
     background-color:#D3D3D3;
 
@@ -18,7 +18,7 @@ const StyledCharacters = styled.div`
     }
     img:hover{
         transition: all .5s;
-        transform:scale(2);
+        transform:scale(1.5);
     }
     .species{
         margin-bottom: 3%;
