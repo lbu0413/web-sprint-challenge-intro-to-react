@@ -26,6 +26,11 @@ const StyledCharacters = styled.div`
     .status{
         color: #eb5e34;
     }
+    .name:hover{
+        transform:scale(1.5);
+        transition: .5s;
+        color: #2F4F4F;
+    }
 `
 
 const Characters = ({character}) => {
